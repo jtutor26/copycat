@@ -1,0 +1,130 @@
+@import url(https://db.onlinewebfonts.com/c/424dca828dee407629efe273d0a28630?family=Spotify+Mix);
+
+@font-face {
+    font-family: "Spotify Mix";
+    src: url("https://db.onlinewebfonts.com/t/424dca828dee407629efe273d0a28630.eot");
+    src: url("https://db.onlinewebfonts.com/t/424dca828dee407629efe273d0a28630.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/424dca828dee407629efe273d0a28630.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/424dca828dee407629efe273d0a28630.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/424dca828dee407629efe273d0a28630.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/424dca828dee407629efe273d0a28630.svg#Spotify Mix")format("svg");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.background {
+    background: linear-gradient(#2a2a2a 0%, #020202 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0; /* Ensures the background is behind other elements */
+    padding: 20px; /* Adds some padding around the content */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+    height: 100vh; /* Ensures the background covers the full viewport height */
+    width: 100%; /* Ensures the background covers the full viewport width */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-position: center; /* Centers the background image */
+    background-size: cover; /* Ensures the background image covers the entire area */
+}
+
+.footer {
+    position: bottom; /* Fixes the position relative to the viewport */
+    bottom: 0; /* Aligns to the bottom of the viewport */
+    left: 0; /* Aligns to the left edge */
+    width: 98%; /* Spans the full width */
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 100; /* Ensures it's on top of other content */
+    height: 40px; /* Sets a fixed height */
+    a, p {
+        color:#a8a8a8;
+        font-size: 11px;
+        font-family: Spotify Mix;
+        align-items: center;
+        text-decoration: bold;
+        font-size: 0.74rem;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+.login-box {
+    background-color: #121212;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 100%; 
+    max-width: 734px;
+    height: 96%;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-family: Spotify Mix;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    img {
+    width: auto;
+    height: 36px;
+    margin-bottom: 20px;
+    }
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.social-login button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #b3b3b3;
+    border-radius: 9999px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 340px;
+    font-family: Spotify Mix;
+    font-size: 16px;
+    font-weight: 700;
+    height:100%;
+    max-height: 46px;
+    display: inline-flex;
+    align-items: center; 
+    gap: 10px;
+    align-content: center;
+    vertical-align: middle;
+    padding: 24px 10px;
+    cursor: pointer;
+    justify-content: center;
+    img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 18px;
+    }
+    
+}
+
+#google-logo {
+    align-content: left;
+}
